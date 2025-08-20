@@ -32,7 +32,7 @@ public class VariablesDataTypesOperatorsTest {
 
     @IsTest
     static void testMultiplication() {
-        Integer result = VariablesDataTypesOperators.multiplication(5, 5);
+      Integer result = VariablesDataTypesOperators.multiplication(5, 5);
         Assert.areEqual(25, result, 'Incorrect multiplication result');
 
         result = VariablesDataTypesOperators.multiplication(-5, 5);
